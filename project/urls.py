@@ -22,9 +22,13 @@ from posts.views import post_list, post_detail
 
 
 
+
 urlpatterns = [
    
     path('admin/', admin.site.urls),
     path('blog/', post_list),
     path('blog/<int:post_id>', post_detail),
 ]
+
+
+
