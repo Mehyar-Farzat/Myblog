@@ -36,6 +36,7 @@ INSTALLED_APPS = [
     'django_light',
     'admin_tools_stats',
     'django_nvd3',
+    'admin_soft.apps.AdminSoftDashboardConfig',
 
     'django.contrib.admin',
     'django.contrib.auth',
